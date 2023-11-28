@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="bmreport@10.21.17.163:22022" type="ssh/sftp" uuid="e03f348e-337c-45c2-b2a8-1327f7317914">
+        <config>
+          <option name="projectRootOnTarget" value="/home/bmreport/work/zhouww/bash_support_test" />
+          <option name="serverName" value="bmreport@10.21.17.163:22022 password" />
+          <option name="useRsync" value="true" />
+        </config>
+        <ContributedStateBase type="BashSupportLanguageRuntime">
+          <config />
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>

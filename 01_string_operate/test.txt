@@ -1,0 +1,20 @@
+HELLO LINUX!
+Linux is a free unix-type opterating system.
+This is a linux testfile!
+Linux test
+Google
+Taobao
+Runoob
+Tesetfile
+Wiki
+
+runoob.
+google.
+taobao.
+facebook.
+zhihu-
+weibo-
+
+hello world
+java world
+python world

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/01_string_operate/02_sed_learn.sh" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/work/stat.sh" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/work/syn_dip_day_stat.sh" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/work/syn_dip_month_stat.sh" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/work/syn_dip_week_stat.sh" charset="GB2312" />
+  </component>
+</project>
