@@ -12,6 +12,15 @@
           <config />
         </ContributedStateBase>
       </target>
+      <target name="dhcp5@10.21.17.95:22022" type="ssh/sftp" uuid="6d3c43d9-1329-4fb6-843b-4ae00f2357a3">
+        <config>
+          <option name="projectRootOnTarget" value="/home/dhcp5/shell_test" />
+          <option name="serverName" value="dhcp5@10.21.17.95:22022 password" />
+        </config>
+        <ContributedStateBase type="BashSupportLanguageRuntime">
+          <config />
+        </ContributedStateBase>
+      </target>
     </targets>
   </component>
 </project>
