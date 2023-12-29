@@ -126,13 +126,22 @@
 #done
 
 
-index=622
-while read -r line;
-do
-  echo ${line} | sed "s/10000/${index}/g"  >> console5.txt;
-  ((index++))
-done < console4.txt
+#index=646
+#while read -r line;
+#do
+#  echo ${line} | sed "s/646/${index}/g"  >> console5.txt;
+#  ((index++))
+#done < console4.txt
 
+#line_pre="INSERT INTO bm_sp_sub_info (id, sp_sub_no, sp_no, service_type_id, has_authorization, authorization_start_time, authorization_end_time, purpose, corporate_name, corporate_no, juridical_person, juridical_cert_type_id, juridical_cert_id, operator, operator_cert_type_id, operator_cert_id, telecom_corporate_id, area_name, network_access_time, corporate_cert_type_id, isp_location, access_corporate_location, access_device, port_signature, is_green_channel, is_check_autograph, white_or_black_list, port_leader_location, operator_location, file_port_examine, file_leader_cert_1, file_leader_cert_2, file_operator_cert_1, file_operator_cert_2, file_corporate_authorization, file_scene_picture, create_time, update_time, business_category_id, business_detail_id, agreement_contract_text, business_license_copy, sms_templates, identification_info) VALUES ("
+#
+#line_mid=", '"
+#line_suffix="', '10690000', '2', 1, '2022-12-31 00:00:00', '2022-12-31 00:00:00', '验证码、通知、订单信息', '杭州紫马科技有限公司', '91330105MA2J0XXXXX', '罗X', 1, '330104198505021231', '陈XX', 1, '330104198505021231', '2030', '所属地区', '2022-12-08 00:00:00', '1', '运营商接入机房位置与设备位置', '短信端口企业商接入机房位置与设备位置', '接入机房及设备', '1', 1, 1, 1, '地址地址', '地址地址', '其他附件', '其他附件', '其他附件', '其他附件', '其他附件', '其他附件', '其他附件', '2023-02-02 17:18:34', '2023-12-26 15:06:45', '00', '00', '协议合同文本', '营业执照/事业单位法人证书复印件', '【短信签名】:短信息内容正文。拒收请回复R', '身份信息三要素秘钥');"
+#index=103620
+#
+#for (( i=0; i<1000000; i++ )); do
+#  echo ${line_pre}$((index++))${line_mid}1069000077777701${i}${line_suffix} >> 100_01.sql;
+#done
 
 #sed 's/monitorType/reportType/g' console6.txt > console7.txt
 #sed 's/interfaceCode/reportTargetCode/g' console7.txt > console8.txt
